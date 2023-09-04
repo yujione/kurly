@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
-$mobile: "screen and (max-width:668px)";
+$mobile: 'screen and (max-width:668px)';
 
 @mixin h-line {
 	width: 280px;
@@ -79,7 +79,7 @@ body {
 			> .logo {
 				position: absolute;
 				left: 50%;
-				top: 88px;
+				top: 70px;
 				width: 193px;
 				height: 111px;
 				margin-left: -96px;
@@ -126,7 +126,7 @@ body {
 			> h2 {
 				position: absolute;
 				left: 50%;
-				top: 224px;
+				top: 200px;
 				color: #eeedee;
 				font-size: 20px;
 				margin-left: -183px;
@@ -141,7 +141,7 @@ body {
 			> h3 {
 				position: absolute;
 				left: 50%;
-				top: 258px;
+				top: 250px;
 				color: #eeedee;
 				font-size: 61px;
 				margin-left: -318px;
@@ -156,7 +156,7 @@ body {
 			> .phone {
 				position: absolute;
 				left: 50%;
-				bottom: 0;
+				bottom: -16px;
 				margin-left: -182px;
 
 				@media #{$mobile} {
@@ -187,7 +187,7 @@ body {
 			> h2 {
 				position: absolute;
 				left: 50%;
-				top: 51px;
+				top: 40px;
 				width: 104px;
 				height: 50px;
 				margin-left: -52px;
@@ -198,7 +198,7 @@ body {
 			> h3 {
 				position: absolute;
 				left: 50%;
-				top: 155px;
+				top: 120px;
 				color: #5f0080;
 				font-size: 34px;
 				margin-left: -107px;
@@ -212,7 +212,7 @@ body {
 			> h4 {
 				position: absolute;
 				left: 50%;
-				top: 205px;
+				top: 185px;
 				@include sub;
 				margin-left: -167px;
 
@@ -226,7 +226,7 @@ body {
 			> .pre {
 				position: absolute;
 				left: 50%;
-				top: 300px;
+				top: 290px;
 				@include pre;
 				margin-left: -225px;
 
@@ -239,7 +239,7 @@ body {
 			> .option {
 				position: absolute;
 				left: 50%;
-				top: 412px;
+				top: 400px;
 				width: 212px;
 				height: 47px;
 				margin-left: -106px;
@@ -258,7 +258,7 @@ body {
 			> .line-3 {
 				position: absolute;
 				left: 0;
-				top: 422px;
+				top: 400px;
 				width: 534px;
 				border-bottom: 1px solid #5f0080;
 				text-indent: -9999px;
@@ -271,7 +271,7 @@ body {
 			> .line-4 {
 				position: absolute;
 				right: 0;
-				top: 422px;
+				top: 400px;
 				width: 534px;
 				border-bottom: 1px solid #5f0080;
 				text-indent: -9999px;
@@ -314,9 +314,13 @@ body {
 
 				> .tit-2 {
 					position: absolute;
-					right: 360px;
+					right: 365px;
 					top: 731px;
 					@include tit;
+
+					> span {
+						padding-left: 50px;
+					}
 
 					@media #{$mobile} {
 						right: 50%;
@@ -363,6 +367,10 @@ body {
 					top: 1233px;
 					@include tit;
 
+					> span {
+						padding-left: 50px;
+					}
+
 					@media #{$mobile} {
 						left: 50%;
 						top: 1526px;
@@ -408,6 +416,10 @@ body {
 					top: 1733px;
 					@include tit;
 
+					> span {
+						padding-left: 50px;
+					}
+
 					@media #{$mobile} {
 						right: 50%;
 						top: 2080px;
@@ -419,7 +431,7 @@ body {
 				> .arrow-1 {
 					position: absolute;
 					right: 475px;
-					top: 739px;
+					top: 775px;
 					@include arrow;
 
 					@media #{$mobile} {
@@ -434,7 +446,7 @@ body {
 				> .arrow-2 {
 					position: absolute;
 					left: 335px;
-					top: 1241px;
+					top: 1275px;
 					@include arrow;
 
 					@media #{$mobile} {
@@ -449,7 +461,7 @@ body {
 				> .arrow-3 {
 					position: absolute;
 					right: 475px;
-					top: 1741px;
+					top: 1775px;
 					@include arrow;
 
 					@media #{$mobile} {
@@ -568,7 +580,7 @@ body {
 			> h3 {
 				position: absolute;
 				left: 50%;
-				top: 184px;
+				top: 170px;
 				color: #5f0080;
 				font-size: 34px;
 				margin-left: -214px;
@@ -582,7 +594,7 @@ body {
 			> h4 {
 				position: absolute;
 				left: 50%;
-				top: 254px;
+				top: 250px;
 				@include sub;
 				margin-left: -218px;
 
@@ -632,7 +644,7 @@ body {
 			> .pre {
 				position: absolute;
 				left: 50%;
-				bottom: 80px;
+				bottom: 45px;
 				@include pre;
 				margin-left: -153px;
 
@@ -680,7 +692,7 @@ body {
 			> h4 {
 				position: absolute;
 				left: 50%;
-				top: 254px;
+				top: 265px;
 				@include sub;
 				margin-left: -256px;
 
@@ -695,7 +707,7 @@ body {
 			> .cou-3 {
 				position: absolute;
 				left: 50%;
-				top: 345px;
+				top: 360px;
 				@include cou;
 				margin-left: -217px;
 				background-image: url(./../images/cou-3.png);
@@ -713,7 +725,7 @@ body {
 			> .pre {
 				position: absolute;
 				left: 50%;
-				bottom: 80px;
+				bottom: 65px;
 				@include pre;
 				margin-left: -199px;
 
