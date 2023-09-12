@@ -23,7 +23,7 @@ body #wrap > header {
 body #wrap > header > .logo {
   position: absolute;
   left: 50%;
-  top: 88px;
+  top: 70px;
   width: 193px;
   height: 111px;
   margin-left: -96px;
@@ -74,7 +74,7 @@ body #wrap > header > .line-2 {
 body #wrap > header > h2 {
   position: absolute;
   left: 50%;
-  top: 224px;
+  top: 200px;
   color: #eeedee;
   font-size: 20px;
   margin-left: -183px;
@@ -89,7 +89,7 @@ body #wrap > header > h2 {
 body #wrap > header > h3 {
   position: absolute;
   left: 50%;
-  top: 258px;
+  top: 250px;
   color: #eeedee;
   font-size: 61px;
   margin-left: -318px;
@@ -104,7 +104,7 @@ body #wrap > header > h3 {
 body #wrap > header > .phone {
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: -16px;
   margin-left: -182px;
 }
 @media screen and (max-width:668px) {
@@ -135,7 +135,7 @@ body #wrap > .cont1 {
 body #wrap > .cont1 > h2 {
   position: absolute;
   left: 50%;
-  top: 51px;
+  top: 40px;
   width: 104px;
   height: 50px;
   margin-left: -52px;
@@ -145,7 +145,7 @@ body #wrap > .cont1 > h2 {
 body #wrap > .cont1 > h3 {
   position: absolute;
   left: 50%;
-  top: 155px;
+  top: 120px;
   color: #5f0080;
   font-size: 34px;
   margin-left: -107px;
@@ -159,7 +159,7 @@ body #wrap > .cont1 > h3 {
 body #wrap > .cont1 > h4 {
   position: absolute;
   left: 50%;
-  top: 205px;
+  top: 185px;
   color: #888;
   font-size: 18px;
   font-weight: 500;
@@ -177,7 +177,7 @@ body #wrap > .cont1 > h4 {
 body #wrap > .cont1 > .pre {
   position: absolute;
   left: 50%;
-  top: 300px;
+  top: 290px;
   color: #baa5d3;
   font-size: 15px;
   line-height: 23px;
@@ -193,7 +193,7 @@ body #wrap > .cont1 > .pre {
 body #wrap > .cont1 > .option {
   position: absolute;
   left: 50%;
-  top: 412px;
+  top: 400px;
   width: 212px;
   height: 47px;
   margin-left: -106px;
@@ -212,7 +212,7 @@ body #wrap > .cont1 > .option {
 body #wrap > .cont1 > .line-3 {
   position: absolute;
   left: 0;
-  top: 422px;
+  top: 400px;
   width: 534px;
   border-bottom: 1px solid #5f0080;
   text-indent: -9999px;
@@ -225,7 +225,7 @@ body #wrap > .cont1 > .line-3 {
 body #wrap > .cont1 > .line-4 {
   position: absolute;
   right: 0;
-  top: 422px;
+  top: 400px;
   width: 534px;
   border-bottom: 1px solid #5f0080;
   text-indent: -9999px;
@@ -270,7 +270,7 @@ body #wrap > .cont1 > .menu > .tit-1 {
 }
 body #wrap > .cont1 > .menu > .tit-2 {
   position: absolute;
-  right: 360px;
+  right: 365px;
   top: 731px;
   color: #888;
   font-size: 30px;
@@ -279,6 +279,9 @@ body #wrap > .cont1 > .menu > .tit-2 {
 }
 body #wrap > .cont1 > .menu > .tit-2 > span {
   color: #5f0080;
+}
+body #wrap > .cont1 > .menu > .tit-2 > span {
+  padding-left: 50px;
 }
 @media screen and (max-width:668px) {
   body #wrap > .cont1 > .menu > .tit-2 {
@@ -334,6 +337,9 @@ body #wrap > .cont1 > .menu > .tit-4 {
 body #wrap > .cont1 > .menu > .tit-4 > span {
   color: #5f0080;
 }
+body #wrap > .cont1 > .menu > .tit-4 > span {
+  padding-left: 50px;
+}
 @media screen and (max-width:668px) {
   body #wrap > .cont1 > .menu > .tit-4 {
     left: 50%;
@@ -388,6 +394,9 @@ body #wrap > .cont1 > .menu > .tit-6 {
 body #wrap > .cont1 > .menu > .tit-6 > span {
   color: #5f0080;
 }
+body #wrap > .cont1 > .menu > .tit-6 > span {
+  padding-left: 50px;
+}
 @media screen and (max-width:668px) {
   body #wrap > .cont1 > .menu > .tit-6 {
     right: 50%;
@@ -399,7 +408,7 @@ body #wrap > .cont1 > .menu > .tit-6 > span {
 body #wrap > .cont1 > .menu > .arrow-1 {
   position: absolute;
   right: 475px;
-  top: 739px;
+  top: 740px;
   display: block;
   width: 160px;
   height: 13px;
@@ -419,7 +428,7 @@ body #wrap > .cont1 > .menu > .arrow-1 {
 body #wrap > .cont1 > .menu > .arrow-2 {
   position: absolute;
   left: 335px;
-  top: 1241px;
+  top: 1242px;
   display: block;
   width: 160px;
   height: 13px;
@@ -439,7 +448,7 @@ body #wrap > .cont1 > .menu > .arrow-2 {
 body #wrap > .cont1 > .menu > .arrow-3 {
   position: absolute;
   right: 475px;
-  top: 1741px;
+  top: 1742px;
   display: block;
   width: 160px;
   height: 13px;
@@ -566,7 +575,7 @@ body #wrap > .cont3 > h2 {
 body #wrap > .cont3 > h3 {
   position: absolute;
   left: 50%;
-  top: 184px;
+  top: 170px;
   color: #5f0080;
   font-size: 34px;
   margin-left: -214px;
@@ -580,7 +589,7 @@ body #wrap > .cont3 > h3 {
 body #wrap > .cont3 > h4 {
   position: absolute;
   left: 50%;
-  top: 254px;
+  top: 250px;
   color: #888;
   font-size: 18px;
   font-weight: 500;
@@ -638,7 +647,7 @@ body #wrap > .cont3 > .cou-2 {
 body #wrap > .cont3 > .pre {
   position: absolute;
   left: 50%;
-  bottom: 80px;
+  bottom: 45px;
   color: #baa5d3;
   font-size: 15px;
   line-height: 23px;
@@ -688,7 +697,7 @@ body #wrap > .cont4 > h3 {
 body #wrap > .cont4 > h4 {
   position: absolute;
   left: 50%;
-  top: 254px;
+  top: 265px;
   color: #888;
   font-size: 18px;
   font-weight: 500;
@@ -707,7 +716,7 @@ body #wrap > .cont4 > h4 {
 body #wrap > .cont4 > .cou-3 {
   position: absolute;
   left: 50%;
-  top: 345px;
+  top: 360px;
   width: 435px;
   height: 247px;
   text-indent: -9999px;
@@ -727,7 +736,7 @@ body #wrap > .cont4 > .cou-3 {
 body #wrap > .cont4 > .pre {
   position: absolute;
   left: 50%;
-  bottom: 80px;
+  bottom: 65px;
   color: #baa5d3;
   font-size: 15px;
   line-height: 23px;
