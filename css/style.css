@@ -417,7 +417,7 @@ body #wrap > .cont1 > .menu > .arrow-1 {
 }
 @media screen and (max-width:668px) {
   body #wrap > .cont1 > .menu > .arrow-1 {
-    right: 50%;
+    right: 52%;
     top: 985px;
     width: 120px;
     height: 9px;
@@ -457,7 +457,7 @@ body #wrap > .cont1 > .menu > .arrow-3 {
 }
 @media screen and (max-width:668px) {
   body #wrap > .cont1 > .menu > .arrow-3 {
-    right: 50%;
+    right: 52%;
     top: 2085px;
     width: 120px;
     height: 9px;
